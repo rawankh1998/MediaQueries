@@ -12,14 +12,96 @@
     <link rel="stylesheet" href="utilites.css">
     <title>Welcome To EdgeLedger </title>
 </head>
-<body>
+<body id="home">
     <header class="hero">
         <div id="navbar" class="navbar">
             <h1 class="logo">
-              <span><i class="fas fa-book-open"></i>Edge</span>ledger  
+              <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span>ledger  
             </h1>
-            <nav></nav>
+            <nav>
+                <ul>
+                    <li><a herf="#home">Home</a></li>
+                    <li><a herf="#about">About</a></li>
+                    <li><a herf="#cases">Cases</a></li>
+                    <li><a herf="blog">Blog</a></li>
+                    <li><a herf="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>The Sky Is The Limit</h1>
+            <p>We provide world class financial assistance</p>
+            <a href="#about" class="btn"><i class="fas fa-chevron-right"></i>Read More</a>
         </div>
     </header>
+    <main>
+        <!--About: Icons-->
+        <section id="about" class="icons bg-light" >
+            <div class="flex-items">
+                <div>
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit
+                        amet consectetur adipisicing
+                         elit. Quaerat, sed!</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Manger</h3>
+                        <p>Lorem ipsum dolor sit
+                        amet consectetur adipisicing
+                         elit. Quaerat, sed!</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit
+                        amet consectetur adipisicing
+                         elit. Quaerat, sed!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About: Solutions-->
+        <section class="solutions flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="img/home/people.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-primary">
+                        <h4>What you are looking for</h4>
+                        <h2>We provide baspoke solutions</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Facilis sapiente quaerat fugit recusandae 
+                        deserunt commodi, accusamus ab numquam nulla qui.</p>
+                        <a href="#" class="btn btn-outline">
+                           <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Cases-->
+        <section id="cases" class="cases flex-grid section-padding">
+            <headrer class="section-headre">
+                <h4>This is what we do</h4>
+                <h2>business Cases</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Repellat, eum?</p>
+            </headrer>
+            <div class="row"></div>
+        </section>
+    </main>
 </body>
 </html>

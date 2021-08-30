@@ -1,0 +1,95 @@
+:root{
+    --green2-color:green;
+    --green-color:rgb(87, 187, 87);
+    --green3-color:rgb(63, 173, 140);
+    --blue-color:#125688;
+    --darkred-color:#cb2027;
+    --yellowgreen-color: yellowgreen; 
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    --light-color:#f4f4f4;
+    background-color: var(--light-color);
+    
+    
+
+}
+h1{
+    
+background-color: var(--green-color);
+width: 1000px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+border:0.1px solid black;
+margin-left: 10%;
+    }
+img{
+   
+float:left;
+width: 300px;
+height: 300px;
+text-align: left;
+line-height: 100px;
+border:10px solid var(--green-color);
+margin-left: 20px; 
+    }
+    p{
+ background-color: var(--green3-color);
+float: right;
+width: 600px;
+height: 200px;
+text-align: right;
+line-height: 100px;
+border:0.1px solid black;
+margin-right:200px; 
+    }
+    a{
+background-color: var(--green-color);
+width: 1000px;
+height: 50px;
+text-align: center;
+line-height: 100px;
+border:0.1px solid black;
+margin-left: 10%;
+       
+        
+
+    }
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fa:hover {
+opacity: 0.7;
+}
+.fa-instagram {
+background: var(--blue-color);
+color: white;
+}
+
+.fa-pinterest {
+background: var(--darkred-color);
+color: white;
+}
+body{
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.side-menu{
+list-style: none;
+border:1px var(--yellowgreen-color) solid;
+border-radius: 5px;
+width: 300px;
+padding: 20px;
+}
+.side-menu li{
+font-size: larger;
+
+}

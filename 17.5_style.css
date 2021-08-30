@@ -2,7 +2,7 @@
 position: relative;
 display: inline-block;
 border-bottom: 1px dotted black;
-text-decoration: none;
+
 }
 
 .tooltip .tooltiptext {
