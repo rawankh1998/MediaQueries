@@ -1,0 +1,29 @@
+.box{
+ display:flex;
+ position:absolute;
+ width: 100px;
+ height: 100px;
+ background: red;
+ margin: 100px;
+ margin-top: 0;
+ 
+ 
+
+}
+.box::after{
+  content:'';
+  position:absolute;
+  width:100px;
+  height: 100px;
+  background: blueviolet;
+ transform: translateX(-100px);
+
+}
+.box:hover::after{
+  content: "";
+  background-color: seagreen;
+  transform: translateX(0);
+  transition-duration: 2s;
+  
+
+}
