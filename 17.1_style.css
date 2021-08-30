@@ -1,0 +1,10 @@
+a {
+    color:blueviolet;
+    text-decoration: none;
+    
+    
+}
+a::after{
+    content: '*';
+    
+}
