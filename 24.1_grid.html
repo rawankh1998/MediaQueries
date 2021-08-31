@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.1</title>
+    <style>
+        .grid .line1 {
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+           
+        }
+        .grid .line2 {
+            display: grid;
+            grid-template-columns: 20% 80%;
+           
+        }
+        .grid .line3{
+            display: grid;
+            grid-template-columns: 100%;
+        }
+
+        .item{
+            padding: 3rem;
+            border:3px;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        .red{
+            background: red;
+        }
+        .blue{
+            background: blue;
+        }
+        .green{
+            background: green;
+        }
+        .purple{
+            background:purple;
+        }
+        .yellow{
+            background:yellow;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+   <div class="grid">
+       <div class="line1">
+       <div class="item red"></div>
+       <div class="item blue"></div>
+    </div>
+    <div class="line2">
+       <div class="item green"></div>
+       <div class="item purple"></div>
+       </div>
+       <div class="line3">
+       <div class="item yellow"></div>
+    </div>
+   </div> 
+</body>
+</html>
