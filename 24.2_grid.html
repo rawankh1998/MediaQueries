@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.2</title>
+</head>
+<style>
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-template-rows: repeat(3,3fr);
+
+}
+
+.item{
+    padding: 3rem;
+    border:3px;
+    border-radius: 20px;
+    margin: 10px;
+    background: black;
+}
+.grid .red{
+    grid-column-start:1 ;
+    grid-column-end:5;
+    background: red;
+}
+.grid .blue {
+    grid-column-start:1 ;
+    grid-column-end:3;
+    grid-row-start:2 ;
+    grid-row-end:4;
+    background: blue;
+}
+.grid .green{
+    grid-column-start:3 ;
+    grid-column-end:5;
+    grid-row-start:2 ;
+    grid-row-end:2;
+    background: green;
+}
+.grid .purple1{
+    grid-column-start:3 ;
+    grid-column-end:4;
+    grid-row-start:3 ;
+    grid-row-end:3;
+    background: purple;
+    
+}
+.grid .purple2{
+    grid-column: 4/ span 5;
+    grid-row: 3 / span 3;
+    background: purple;
+}
+
+
+</style>
+<body>
+    <div class="grid">
+        <div class="item red"></div>
+        <div class="item blue"></div>
+        <div class="item green"></div>
+        <div class="item purple1"></div>
+        <div class="item purple2"></div>
+        
+    </div>
+</body>
+</html>
