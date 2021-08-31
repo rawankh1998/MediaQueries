@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.3</title>
+    <style>
+        .grid{
+         display: grid;
+        grid-template-columns: repeat(4,3fr);
+        grid-template-rows: repeat(3,3fr);
+        }
+        .item{
+            padding: 3rem;
+            border:3px;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        @media (min-width:992px) {
+            
+        
+        .red{
+            grid-column:1/ span 5 ;
+            grid-row:1 ;
+            background: red;
+        }
+        .blue{
+            grid-column:1/ span 1 ;
+            grid-row:2 ;
+            background: blue;
+        }
+        .green{
+            grid-column:2/span 2 ;
+            grid-row:2 ;
+            background: green;
+        }
+        .purple{
+            grid-column:4/ span 5;
+            grid-row:2 ;
+            background:purple;
+        }
+        .yellow{
+            grid-column:1/ span 5;
+            grid-row:3 ;
+            background:yellow;
+        }}
+
+        @media (min-width:768px) and (max-width:991px) {
+            
+        
+            .red{
+                grid-column:1/ span 5 ;
+                grid-row:1 ;
+                background: red;
+            }
+            .blue{
+                grid-column:1/ span 1 ;
+                grid-row:2 ;
+                background: blue;
+            }
+            .green{
+                grid-column:2/span 5 ;
+                grid-row:2 ;
+                background: green;
+            }
+            .purple{
+                grid-column:1/ span 5;
+                grid-row:3 ;
+                background:purple;
+            }
+            .yellow{
+                grid-column:1/ span 5;
+                grid-row:4 ;
+                background:yellow;
+            }}
+            @media (max-width:766px) {
+            
+        
+            .red{
+                grid-column:1/ span 5 ;
+                grid-row:1 ;
+                background: red;
+            }
+            .blue{
+                grid-column:1/ span 5 ;
+                grid-row:2 ;
+                background: blue;
+            }
+            .green{
+                grid-column:1/span 5 ;
+                grid-row:3 ;
+                background: green;
+            }
+            .purple{
+                grid-column:1/ span 5;
+                background:purple;
+            }
+            .yellow{
+                grid-column:1/ span 5;
+                background:yellow;
+            }}
+
+
+
+
+    </style>
+</head>
+<body>
+   <div class="grid">
+    <div class="item red">Header</div>
+    <div class="item blue">sidebar</div>
+    <div class="item green">conten <p>More content than we had befor so this column is now quite tall</p></div>
+    <div class="item purple">sidebar 2</div>
+    <div class="item yellow">Footer</div>
+    </div>
+    
+</body>
+</html>
+
